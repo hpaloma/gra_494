@@ -146,11 +146,55 @@ p.copyright {
 	color: #555;
 	font-family: "Helvetica";
 	font-size: 50px;
-
-
-
+	-webkit-transition: ease-out 0.4s;
+	-moz-transition: ease-out 0.4s;
+	transition: ease-out 0.4s;
+	cursor: pointer;
 
   }
+  .container .fig:hover {
+	color: white;
+  }
+
+  .Footer-newsletter {
+	background-color: #F2F1EF;
+	color: #414042;
+	padding: 10px 24px;
+	padding-bottom: 1rem;
+  }
+
+
+  .SearchMini-input-2, .SearchMini-input:focus, .SearchMini-input:hover {
+    background: #fff;
+    width: 70%;
+    margin: 0!important;
+    height: 1.5rem;
+    border: 0px solid transparent;
+    border-radius: 0.625rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 120%;
+    padding: 1rem 0.8125rem;
+}
+
+
+ .btn-2 {
+	background-color: white;
+	font-family: "Helvetica";
+	font-size: 16px;
+	padding: 1.2rem 1rem;
+	border: 0px solid transparent;
+	border-radius: 10px;
+	-webkit-transition: ease-out 0.4s;
+	-moz-transition: ease-out 0.4s;
+	transition: ease-out 0.4s;
+	cursor: pointer;
+ }
+
+ .btn-2:hover {
+	box-shadow: inset 0 100px 0 0 #555;
+	color: white;
+ }
 /* Breakpoint */
 @media screen and (max-width: 700px) {
 	section.main {
