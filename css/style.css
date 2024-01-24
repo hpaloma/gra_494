@@ -164,7 +164,7 @@ p.copyright {
   }
 
 
-  .SearchMini-input-2, .SearchMini-input:focus, .SearchMini-input:hover {
+  .SearchMini-input-2, .SearchMini-input-2:focus, .SearchMini-input-2:hover {
     background: #fff;
     width: 70%;
     margin: 0!important;
