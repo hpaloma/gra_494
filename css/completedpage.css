@@ -1,0 +1,31 @@
+/* Default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	background: red;
+  }
+
+ .navigation {
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      padding: 0;
+      margin: 0;
+      Font-size: 16px;
+      Font-family: Franklin Gothic ATF;
+      Margin-left: 47rem;
+      Margin-top: 3rem;
+
+    }
+
+
+
+
+
+/* Breakpoint */
+@media screen and (max-width: 700px) {
+	section.main {
+		margin: 5rem 2rem;
+	}
+}

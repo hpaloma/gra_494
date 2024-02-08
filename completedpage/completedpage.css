@@ -1,0 +1,70 @@
+/* Default */
+* {
+    margin-left: 1rem;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.headerimg {
+	margin-top: 3.4rem;
+}
+
+.headerimg-2 {
+	margin-top: 3.5rem;
+	margin-left: 40rem;
+}
+
+
+.navigation {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	padding: 0;
+	margin: 0;
+	Font-size: 16px;
+	Font-family: Franklin Gothic ATF;
+	Margin-left: 53rem;
+	Margin-top: 3rem;
+
+  }
+
+.navigation ul {
+	List-style-type: none;
+  }
+
+.navigation li {
+
+display: inline-block;
+margin-right: 16px; /* the spacing between the words */
+
+}
+
+.navigation ul li a{
+   Text-decoration: none;
+   Color: black;
+  
+}
+
+body {
+	background-color: #FF7F5F2;
+	max-width: 100%;
+}
+
+.bottom-right {
+font-size: 40px;
+margin-left: 20rem;
+margin-top: 10rem;
+font-family: 'Mulish', sans-serif;
+position: absolute;
+
+}
+
+.bottom-left {
+	font-size: 30px;
+	font-family: 'Cedarville Cursive', cursive;
+	margin-left: 4rem;
+	margin-top: -6rem;
+	line-height: 3rem;
+	
+	}
+	
