@@ -11,7 +11,7 @@
 }
 
 .headerimg-2 {
-	margin-top: 3rem;
+	margin-top: 4rem;
 	margin-left: 45rem;
 	margin-bottom: 6rem;
 }
@@ -65,7 +65,7 @@ position: absolute;
 	font-size: 30px;
 	font-family: 'Cedarville Cursive', cursive;
 	margin-left: 7rem;
-	margin-top: -7rem;
+	margin-top: -8rem;
 	line-height: 3rem;
 	margin-bottom: 3rem;
 	
@@ -120,7 +120,8 @@ position: absolute;
 	color: #fff;
 	border-radius: 10px;
 	Margin-top: 2rem;
-	Font-family: Franklin Gothic ATF;
+	font-family: 'Mulish', sans-serif;
+	font-weight: 600;
 	margin-left: 40rem;
 	margin-top: 4.5rem;
 	position: absolute;
@@ -137,7 +138,7 @@ position: absolute;
   
   .grid-item-1 {
 	padding: 20px;
-	font-size: 55px;
+	font-size: 60px;
 	font-family: 'Cedarville Cursive', cursive;
 	font-weight: 800;
   }
@@ -170,14 +171,25 @@ position: absolute;
 	margin-left: 7rem;
 	margin-right: 7rem;
   }
+
+  .moved-img {
+	position: absolute;
+	margin-left: 50rem;
+	margin-top: -3.5rem;
+  }
   
   .grid-item-3 {
 	background-color: #f2f2f2;
 	padding: 20px;
-	height: 20rem;
+	height: 22rem;
 	margin-bottom: 3rem;
 	font-family: 'Mulish', sans-serif;
 	font-weight: 800;
+
+  }
+
+  .grid-item-3:hover {
+	transform: scale(1.05); /* Scale to 120% size */
 
   }
 
@@ -281,3 +293,41 @@ footer {
 	Margin-top: 6rem;
 	Height: 8rem;
   }
+
+
+  .button:hover {
+	background-color: lightblue;
+	color: black;
+	transition: background-color 0.5s ease-in-out;
+
+  }
+
+
+  .button-2 {
+	display: inline-block;
+	padding: 7px 20px;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	background-color:none;
+	color: #252525;
+	border-radius: 10px;
+	border: 1px solid black;
+	Margin-top: 2rem;
+	font-family: 'Mulish', sans-serif;
+	font-weight: 600;	
+	margin-left: 3.2rem;
+	margin-top: 1.5rem;
+	position: absolute;
+  }
+
+
+  .button-2:hover {
+	background-color: #0E3E51;
+	color: white;
+	transition: background-color 0.5s ease-in-out;
+
+  }
+
+
