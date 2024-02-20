@@ -42,7 +42,7 @@
       <img src="../img/completed-img1.png" height="460" width="460" alt="header img">
     </div>
 
-    <div class="bottom-left">Beneath the Surface <br> Ep. 1</div>
+    <div class="bottom-left">Beneath the Surface <br> Ep. 02</div>
     </div>
     </div>
     <header>
@@ -74,12 +74,12 @@
             ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
             nulla pariatur.
           </figcaption>
-          
+
         </div>
 
         <div class="moved-img">
-        <img src="../img/completed-img7.png" height="100" width="270" alt="tape">
-      </div>
+          <img src="../img/completed-img7.png" height="100" width="270" alt="tape">
+        </div>
 
         <div class="grid-item-2">
           <img src="../img/completed-img5.png" height="390" width="600" alt="image1">
@@ -141,9 +141,16 @@
 
       <div class="grid-container-3">
         <div class="grid-item-2">
-          <video width="580" height="430" controls>
-            <source src="../img/completed-video1.mp4" type="video/mp4">
-          </video>
+          <img src="../img/completed-img8.png" width="580" height="430" alt="Video Thumbnail" id="videoThumbnail">
+
+          <!-- Lightbox modal -->
+          <div id="videoModal" class="modal">
+            <span class="close">×</span>
+              <video width="640" height="520" controls>
+                <source src="../img/completed-video1.mp4" type="video/mp4">
+              </video>
+          </div>
+          <script src="completedpage.js"></script>
         </div>
 
         <div class="grid-item-4">Who's Getting Cut?
@@ -171,6 +178,9 @@
 
 
       </footer>
+
+      <script src="completedpage.js"></script>
+
 </body>
 
 </html>
