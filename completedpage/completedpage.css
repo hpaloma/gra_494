@@ -188,10 +188,6 @@ position: absolute;
 
   }
 
-  .grid-item-3:hover {
-	transform: scale(1.05); /* Scale to 120% size */
-
-  }
 
   h2 {
 	font-family: 'Mulish', sans-serif;
@@ -227,7 +223,7 @@ position: absolute;
   }
   
   .grid-item-3 {
-	background-color: #f2f2f2;
+	background-color: #F0F6F7;
 	padding: 20px;
   }
   
@@ -287,11 +283,12 @@ footer {
 	position: bottom;
 	width: 1440px;
 	display: grid;
-	Grid-template-columns: repeat(4, 1fr); /* Three rows with equal height */
+	Grid-template-columns: repeat(4, 1fr); 
 	font-family: 'Mulish', sans-serif;
 	Font-size: 13px;
 	Margin-top: 6rem;
-	Height: 8rem;
+	Height: 125px;
+	
   }
 
 
@@ -317,7 +314,7 @@ footer {
 	Margin-top: 2rem;
 	font-family: 'Mulish', sans-serif;
 	font-weight: 600;	
-	margin-left: 3.2rem;
+	margin-left: 2.4rem;
 	margin-top: 1.5rem;
 	position: absolute;
   }
@@ -353,9 +350,9 @@ footer {
 
 .close {
     position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 24px;
+    top: 80px;
+    right: 350px;
+    font-size: 35px;
     color: #fff;
     cursor: pointer;
 }
@@ -364,6 +361,12 @@ footer {
     cursor: pointer;
     /* Add styling for the thumbnail image */
 }
+
+#videoThumbnail:hover {
+	transform: scale(1.02); /* Scale to 120% size */
+
+}
+
 
 
 
