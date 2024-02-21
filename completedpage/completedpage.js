@@ -22,3 +22,4 @@ videoThumbnail.addEventListener('click', () => {
   const videoElement = videoModal.querySelector('video');
   videoElement.play(); // Autoplay the video
 });
+
