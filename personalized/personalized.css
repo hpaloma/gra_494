@@ -480,22 +480,20 @@ h4 {
 /* lightbox */
 
 .grid-container-3 {
-	margin-top: 5rem;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 40px;
-	position: relative;
+	grid-template-columns: 1fr;
+	/* Two equal-width columns */
+	/* Gap between columns */
 }
 
 .grid-item-4 {
-	padding: 20px;
-	font-size: 55px;
+	font-size: 40px;
 	font-family: 'Cedarville Cursive', cursive;
 	font-weight: 800;
-	margin-left: 3rem;
+	color: black;
 }
-/* javascript starts */
 
+/* js */
 .modal {
 	display: none;
 	position: fixed;
@@ -533,4 +531,26 @@ h4 {
 	transform: scale(1.02);
 	/* Scale to 120% size */
 
+}
+
+/* footer */
+footer {
+	background-color: #252525;
+	color: #fff;
+	padding: 50px 20px 20px 60px;
+	Text-align: left;
+	position: bottom;
+	width: 1200px;
+	display: grid;
+	Grid-template-columns: repeat(4, 1fr);
+	font-family: 'Mulish', sans-serif;
+	Font-size: 13px;
+	Margin-top: 2rem;
+	Height: 125px;
+
+}
+
+.headerimg-3 {
+	margin-left: 2rem;
+	width: 40%;
 }
